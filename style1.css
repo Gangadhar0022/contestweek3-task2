@@ -1,0 +1,81 @@
+
+
+
+
+    .main{
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: repeat(2,5fr);
+        height: 97vh;
+    }
+
+    .right,.left{
+        height: 50vh;
+        display: grid;
+    }
+    
+  .inputtext,.selectfield,.inputtextbtn,.search{
+    width: 488px;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #drag,.textarea{
+    width: 488px;
+    height: 101px;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+    border-radius: 7px;
+  }
+
+  .inputtextbtn{
+    width: 392px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: none;
+    border-right: none;
+  }
+
+  
+  /* .btn{
+    border-radius :7px;
+    background-color: white;
+    width: 52px;
+    height: 26px;
+    border-left: none; */
+  }
+
+  .btntable{
+    border: 1px solid black;
+    width: 493px;
+    height: 63px;
+    border-radius: 7px;
+  }
+  .btn{
+    border: 1px solid;
+    background-color: none;
+    height: 26px;
+    border-radius: 7px;
+  }
+
+  .btntable1{
+    border: 1px solid black;
+  }
+
+  .inputtextbtn{
+    border: none;
+  }
+  /* .Label,.btn{
+    border: none;
+  } */
+  /* .Label{
+    border: 1px solid black;
+    border-radius: 7px;
+    border-right: none;
+    height: 26px
+    b  } */
+
+
